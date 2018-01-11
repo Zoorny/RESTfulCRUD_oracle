@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@localhost" uuid="9f0f119e-908a-45dc-b36c-713c094fc17c">
-      <driver-ref>postgresql</driver-ref>
+    <data-source source="LOCAL" name="@localhost" uuid="bd36d401-fdce-46ca-a953-2e316ee9fb74">
+      <driver-ref>oracle</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
       <driver-properties>
-        <property name="ApplicationName" value="DataGrip" />
+        <property name="v$session.program" value="DataGrip" />
       </driver-properties>
     </data-source>
   </component>

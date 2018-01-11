@@ -62,12 +62,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>42.0.0</version>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6_g</artifactId>
+            <version>11.1.0.7.0</version>
         </dependency>
-
-
 
     </dependencies>
 </project>

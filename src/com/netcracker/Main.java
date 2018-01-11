@@ -13,10 +13,10 @@ public class Main {
         BuyerDAO buyerDAO = context.getBean(BuyerDAO.class);
 
         Buyer buyer = new Buyer();
-        buyer.setId(2);
-        buyer.setName("main");
+        buyer.setId(3);
+        buyer.setName("justadded");
         buyer.setLocation("loc");
-        buyer.setDiscount(100);
+        buyer.setDiscount(1337);
 
         buyerDAO.add(buyer);
         System.out.println(buyerDAO.findAll());
